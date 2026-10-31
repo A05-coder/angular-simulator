@@ -1,0 +1,202 @@
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+  .header-content_brand {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .header-content_company {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-content_navigation {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    color: var(--special-color);
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+    .a:hover {
+      transition: transform 0.4s;
+      transform: scale(1.1);
+    }
+
+    .a:active {
+      transition: transform 0.4s;
+      transform: scale(0.9);
+    }
+
+    .b:hover {
+      transition: transform 0.4s;
+      transform: scale(1.1);
+    }
+
+    .b:active {
+      transition: transform 0.4s;
+      transform: scale(0.9);
+    }
+    .c:hover {
+      transition: transform 0.4s;
+      transform: scale(1.1);
+    }
+
+    .c:active {
+      transition: transform 0.4s;
+      transform: scale(0.9);
+    }
+
+    .d:hover {
+      transition: transform 0.4s;
+      transform: scale(1.1);
+    }
+
+    .d:active {
+      transition: transform 0.4s;
+      transform: scale(0.9);
+    }
+
+    .e:hover {
+      transition: transform 0.4s;
+      transform: scale(1.1);
+    }
+
+    .e:active {
+      transition: transform 0.4s;
+      transform: scale(0.9);
+    }
+
+    .f:hover {
+      transition: transform 0.4s;
+      transform: scale(1.1);
+    }
+
+    .f:active {
+      transition: transform 0.4s;
+      transform: scale(0.9);
+    }
+
+.background {
+  background-image: url('/images/background-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 985px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-content {
+  padding-top: 431px;
+}
+
+  .main-content_heading {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 150%;
+    letter-spacing: 2%;
+    color: var(--special-color);
+    text-transform: uppercase;
+  }
+
+  .main-content_form {
+    width: 1180px;
+    height: 161px;
+    border-radius: 10px;
+    margin-top: 41px;
+    padding: 40px 43px;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .main-content_input {
+    width: 270px;
+    height: 52px;
+    border: 1px solid #E1E3E4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+  }
+
+    .input-block {
+      width: 210px;
+      height: 24px;
+      font-size: 16px;
+      color: var(--special-color);
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+
+      ::placeholder {
+      color: var(--special-color);
+      }
+
+    .icon-button {
+      transition: transform 0.3s;
+    }
+
+    .select-icon {
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+
+      .select-icon:hover .icon-button {
+        transform: scale(1.3);
+      }
+
+      .select-icon:active .icon-button {
+        transform: scale(1.1);
+      }
+
+    .calendar-icon {
+      width: 18px;
+      height: 18px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+      .calendar-icon:hover .icon-button {
+        transform: scale(1.15);
+      }
+
+      .calendar-icon:active .icon-button {
+        transform: scale(0.9);
+      }
+
+    .main-content_clue {
+      width: 270px;
+      height: 21px;
+      margin-top: 8px;
+      padding: 0px 8px;
+      color: var(--special-color);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+    }
