@@ -1,1 +1,84 @@
-<h1 style="display: flex; justify-content: center; font-family: sans-serif;">NGX SIMULATOR</h1>
+<div class="header-container">
+  <header class="content header-content">
+    
+    <div class="header-content_brand">
+      <img src="images/mountain-logo.svg" alt="mountain logo" />
+      <p class="header-content_company">{{ companyName }}</p>
+    </div>
+
+    <div class="header-content_navigation">
+      <p class="a">Главная</p>
+      <p class="b">Про гида</p>
+      <p class="c">Программа тура</p>
+      <p class="d">Стоимость</p>
+      <p class="e">Блог</p>
+      <p class="f">Контакты</p>
+    </div>
+
+    <button class="consultation-button">Консультация</button>
+
+  </header>
+</div>
+
+<div class="background"></div>
+
+<div class="main-container">
+  <div class="content main-content">
+
+    <p class="main-content_heading">Насладись прогулкой в горах <br>с командой единомышленников</p>
+    
+    <form class="main-content_form">
+
+      <div>
+        <div class="main-content_input">
+          <input 
+            class="input-block"
+            name="location" 
+            type="text" 
+            placeholder="Локация для тура"
+            id="locationInput"
+          />
+          <div class="select-icon">
+            <img class="icon-button" src="images/checkmark-icon.svg" alt="select icon" />
+          </div>
+        </div>
+        <p class="main-content_clue">выберите из списка</p>
+      </div>
+
+      <div>
+        <div class="main-content_input">
+          <input
+            class="input-block"
+            name="date" 
+            type="text"
+            placeholder="Дата похода"
+            id="dateInput"
+          />
+          <div class="calendar-icon">
+            <img class="icon-button" src="images/calendar-icon.svg" alt="calendar icon" />
+          </div>
+        </div>
+        <p class="main-content_clue">укажите дату</p>
+      </div>
+
+      <div>
+        <div class="main-content_input">
+          <input 
+            class="input-block"
+            name="guests" 
+            type="text" 
+            placeholder="Участники похода"
+            id="guestsInput"
+          />
+          <div class="select-icon">
+            <img class="icon-button" src="images/checkmark-icon.svg" alt="select icon" />
+          </div>
+        </div>
+        <p class="main-content_clue">выберите из списка</p>
+      </div>
+
+      <button class="global-button">Найти программу</button>
+    </form>
+
+  </div>
+</div>
